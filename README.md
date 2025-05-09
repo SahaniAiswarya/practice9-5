@@ -126,3 +126,23 @@ from datetime import date
 today=date.today()
 name=today.strftime("%A")
 print("today:",name)
+
+#print first and last date of a month
+import calendar
+from datetime import date
+year=2025
+month=5
+fday=date(year,month,1)
+lday=date(year,month,calendar.monthrange(year,month)[1])
+print("firstday",fday.strftime("%A,%Y-%M-%D"))
+print("lastday",lday.strftime("%A,%Y-%M-%D"))
+
+#print first and last date of a month
+import calendar
+from datetime import date
+year=2025
+month=5
+fday=date(year,month,1)
+lday=date(year,month,calendar.monthrange(year,month)[1])
+print("firstday",fday.strftime("%A,%Y-%M-%D"))
+print("lastday",lday.strftime("%A,%y-%m-%d"))
