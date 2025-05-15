@@ -146,3 +146,152 @@ fday=date(year,month,1)
 lday=date(year,month,calendar.monthrange(year,month)[1])
 print("firstday",fday.strftime("%A,%Y-%M-%D"))
 print("lastday",lday.strftime("%A,%y-%m-%d"))
+
+
+15/5/25
+  num=99
+if 99<0:
+    print("hi student")
+
+print("india")
+
+
+  num=99
+if num>0:
+    print("hi student")
+
+print("india")
+
+
+  num=-99
+if num>0:
+    print("hi student")
+
+print("india")
+
+
+
+#if condition
+person=int(input("enter the age"))
+if person>=18:
+    print("eligible")
+
+
+     condition
+person=int(input("enter the age"))
+limit=18
+if person>=limit:
+    print("eligible")
+
+
+    num=int(input("enter the number"))
+if num%2==1:
+    print("odd",num)
+
+print("after condition exit")
+
+
+char=input("press any key:")
+if char.isalpha():
+    print("the user has entered character")
+if char.isdigit():
+    print("the user has entered digit")
+if char.isspace():
+    print("the user has entered space")
+
+
+    #if else condition
+person=int(input("enter the age"))
+limit=18
+if person>=limit:
+    print("eligible")
+else:
+    print("not eligible")
+
+
+    a=int(input("enter the a value:"))
+b=int(input("enter the  value:"))
+if a<b:
+    small=a
+else:
+    small=b
+
+print("smallest value",small)
+
+
+a=int(input("enter the a value:"))
+b=int(input("enter the  value:"))
+if a>b:
+    small=a
+else:
+    small=b
+
+print("smallest value",small)
+
+
+ch=input("enter the character")
+if ch>='A' and ch<='Z':
+    ch=ch.lower()
+
+else:
+    ch=ch.upper()
+
+print("converted case of input char:",ch)
+
+
+num=int(input("enter number"))
+if num%4==0 or num%100==0:
+    print("leap year",num)
+
+else:
+    print("not leap year",num)
+
+print("leap year",num)
+
+
+num=int(input("enter number"))
+if num%4==0 or num%100==0:
+    print("leap year")
+
+else:
+    print("not leap year")
+
+
+num=int(input("enter the value:"))
+if num==0:
+    print("zero")
+
+elif(num>0):
+    print("positive")
+
+else:
+    print("negative")
+
+
+    num=int(input("enter the number"))
+if num==1:print("sunday")
+elif num==2:print("monday")
+elif num==3:print("tuesday")
+elif num==4:print("wednesday")
+elif num==5:print("thursday")
+elif num==6:print("friday")
+elif num==7:print("saturday")
+else:print("wrong input")
+
+
+ch=input("enter the character")
+if ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u':
+    print("vowels")
+elif ch=='A' or ch=='E' or ch=='I' or ch=='O' or ch=='U':
+    print("vowel")
+else:
+    print("consonents")
+
+
+    ch=input("enter the character")
+if ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u':
+    print("small vowels")
+elif ch=='A' or ch=='E' or ch=='I' or ch=='O' or ch=='U':
+    print("capital vowel")
+else:
+    print("consonents")
